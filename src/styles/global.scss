@@ -1,0 +1,214 @@
+.head-container {
+  padding-bottom: 10px;
+  .filter-item {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px 10px 0;
+    input {
+      height: 32px;
+      line-height: 32px;
+    }
+  }
+  .date-item {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px 10px 5px;
+  }
+  .data-select {
+    width: 100% !important;
+    input {
+      height: 32px;
+      line-height: 32px;
+    }
+  }
+  .data-form {
+    width: 100% !important;
+    .el-form-item__content {
+      width: 100% !important;
+    }
+  }
+  .el-select {
+    width: 100% !important;
+  }
+  .el-date-editor.el-input, .el-date-editor.el-input__inner {
+    width: 100% !important;
+  }
+  .el-button {
+    width: 100%;
+  }
+  .el-form-item-label {
+    margin: 0 3px 9px 0;
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #606266;
+    line-height: 32px;
+    padding: 0 7px 0 7px;
+  }
+  .el-button+.el-button {
+    margin-left: 0 !important;
+  }
+  .el-select__caret.el-input__icon.el-icon-arrow-up{
+    line-height: 32px;
+  }
+  .el-icon-circle-close {
+    line-height: 32px;
+  }
+  .el-date-editor .el-range-input, .el-date-editor .el-range-separator {
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+  }
+  .el-form-item {
+    margin-bottom: 0 !important;
+  }
+}
+.el-row .el-col {
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.el-dialog {
+  margin-top: 10vh;
+}
+.el-avatar {
+  display: inline-block;
+  text-align: center;
+  background: #ccc;
+  color: #fff;
+  white-space: nowrap;
+  position: relative;
+  overflow: hidden;
+  vertical-align: middle;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 16px;
+}
+
+.logo-con{
+  height: 60px;
+  padding: 13px 0 0;
+  img{
+    height: 32px;
+    width: 135px;
+    display: block;
+  }
+}
+
+#el-login-footer {
+  height: 40px;
+  line-height: 40px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-family: Arial, serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+#el-main-footer {
+  background: none repeat scroll 0 0 white;
+  border-top: 1px solid #e7eaec;
+  overflow: hidden;
+  padding: 10px 6px 0 6px;
+  height: 33px;
+  font-size: 0.7rem !important;
+  color: #7a8b9a;
+  letter-spacing: 0.8px;
+  font-family: Arial, sans-serif !important;
+  position: fixed;
+  bottom: 0;
+  z-index: 99;
+  width: 100%;
+}
+.eladmin-upload {
+  border: 1px dashed #c0ccda;
+  border-radius: 5px;
+  height: 45px;
+  line-height: 45px;
+  width: 368px;
+}
+.my-blockquote{
+  margin: 0 0 10px;
+  padding: 15px;
+  line-height: 22px;
+  border-left: 5px solid #00437B;
+  border-radius: 0 2px 2px 0;
+  background-color: #f2f2f2;
+}
+.my-code{
+  position: relative;
+  padding: 15px;
+  line-height: 20px;
+  border-left: 5px solid #ddd;
+  color: #333;
+  font-family: Courier New, serif;
+  font-size: 12px
+}
+.el-tabs{
+  margin-bottom: 25px;
+}
+.el-dialog {
+  border-radius: 10px !important;
+}
+.el-dialog__body {
+  padding: 30px 0 10px 0 !important;
+}
+.el-dialog__body .el-form {
+  padding: 0 20px !important;
+}
+.el-dialog__body .head-container .el-form {
+  padding: 0 0 !important;
+}
+.el-dialog__header {
+  border-radius: 10px 10px 0 0;
+  padding: 10px 20px 10px 20px !important;
+}
+.el-dialog__title {
+  font-size: 16px !important;
+  color: #ffffff !important;
+}
+.el-dialog__headerbtn {
+  position: absolute;
+  top: 15px !important;
+  right: 20px;
+  padding: 0;
+  background: 0 0;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+.el-dialog__headerbtn .el-dialog__close {
+  color: #ffffff !important;
+}
+.el-tabs {
+  margin-bottom: 0;
+}
+.el-table th.el-table-column--selection {
+  background: #F5F7FA !important;
+}
+.el-form-item__content {
+  line-height: 16px !important;
+}
+.el-table .ascending .sort-caret.ascending {
+  border-bottom-color: #1f2d3d !important;
+}
+.el-table .descending .sort-caret.descending {
+  border-top-color: #1f2d3d !important;
+}
+.el-table .sort-caret.ascending {
+  border-bottom-color: #fefefe !important;
+}
+.el-table .sort-caret.descending {
+  border-top-color: #fefefe !important;
+}
+.el-icon-circle-close {
+  color: #ffffff;
+}
